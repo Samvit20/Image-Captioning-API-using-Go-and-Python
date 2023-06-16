@@ -1,12 +1,15 @@
 package main
 
 import (
+	"bytes"
 	"fmt"
+	"io"
 	"io/ioutil"
 	"log"
 	"mime/multipart"
 	"net/http"
 	"os"
+	"path/filepath"
 )
 
 func main() {
